@@ -69,7 +69,7 @@ set CMD_LINE_ARGS=%$
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\Task.jar;%APP_HOME%\lib\junit-4.12.jar;%APP_HOME%\lib\jsoup-1.10.2.jar;%APP_HOME%\lib\h2-1.4.191.jar;%APP_HOME%\lib\slf4j-api-1.7.12.jar;%APP_HOME%\lib\hamcrest-core-1.3.jar
+set CLASSPATH=%APP_HOME%\lib\Task.jar;%APP_HOME%\lib\junit-4.12.jar;%APP_HOME%\lib\jsoup-1.10.2.jar;%APP_HOME%\lib\h2-1.4.191.jar;%APP_HOME%\lib\slf4j-api-1.7.25.jar;%APP_HOME%\lib\slf4j-log4j12-1.7.25.jar;%APP_HOME%\lib\hamcrest-core-1.3.jar;%APP_HOME%\lib\log4j-1.2.17.jar
 
 @rem Execute Task
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %TASK_OPTS%  -classpath "%CLASSPATH%" Main %CMD_LINE_ARGS%
