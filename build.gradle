@@ -1,0 +1,37 @@
+apply plugin: "java"
+apply plugin: "application"
+apply plugin: "idea"
+
+mainClassName = "Main"
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    compile 'junit:junit:4.12'
+    compile 'org.jsoup:jsoup:1.10.2'
+    compile 'com.h2database:h2:1.4.191'
+    compile 'org.slf4j:slf4j-api:1.7.12'
+}
+
+sourceSets {
+    main {
+        java.srcDirs = ['src']
+    }
+    test {
+        java.srcDirs = ['test']
+    }
+}
+
+jar {
+    manifest.attributes("Main-Class": mainClassName)
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = "1.12"
+}

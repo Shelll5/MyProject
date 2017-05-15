@@ -1,0 +1,15 @@
+2017-05-15 15:57:07 ERROR Main:24 - Something wrong
+2017-05-15 15:57:13 ERROR UrlAndImageDaoImpl:134 - Something wrong
+2017-05-15 15:57:23 ERROR Main:24 - Something wrong
+2017-05-15 15:58:10 ERROR Main:24 - Something wrong
+2017-05-15 15:58:18 ERROR Util:26 - Wrong connection
+2017-05-15 16:00:15 ERROR Main:24 - Something wrong
+2017-05-15 16:00:17 ERROR Util:26 - Wrong connection ! Database may be already in use
+2017-05-15 16:04:33 ERROR Main:24 - Something wrong
+2017-05-15 16:04:35 ERROR Util:26 - Wrong connection ! Database may be already in use
+2017-05-15 16:05:38 ERROR Main:24 - Something wrong
+2017-05-15 16:05:40 ERROR Util:26 - Wrong connection ! Database may be already in use
+2017-05-15 16:20:58 ERROR Main:24 - Something wrong
+2017-05-15 16:21:20 ERROR UrlAndImageDaoImpl:74 - File not found
+2017-05-15 16:22:33 ERROR Main:24 - Something wrong
+2017-05-15 16:22:39 ERROR UrlAndImageDaoImpl:74 - File not found
